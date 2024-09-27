@@ -20,6 +20,7 @@ public class ProductController {
 
     public List<Product> getList(){
 
+        int  a =7;
         return productService.getAll();
     }
 
